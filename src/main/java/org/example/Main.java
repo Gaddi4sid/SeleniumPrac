@@ -39,7 +39,7 @@ public class Main {
         driver.findElement(By.xpath("//*[@aria-label='Thu Mar 21 2024']")).click();
         driver.findElement(By.xpath("//*[text()='Search']")).click();
         //if this is displayed then click
-        if(driver.findElement(By.xpath("//*[text()='OKAY, GOT IT!']")).isDisplayed()){
+        /*if(driver.findElement(By.xpath("//*[text()='OKAY, GOT IT!']")).isDisplayed()){
             driver.findElement(By.xpath("//*[text()='OKAY, GOT IT!']")).click();
         }
         //for Timings
@@ -51,6 +51,6 @@ public class Main {
         List<WebElement> flightCompany = driver.findElements(By.xpath("//p[contains(@class,'airlineName')]"));
         System.out.println(flightCompany.get(0).getText());
         List<WebElement> flightCode = driver.findElements(By.xpath("//p[contains(@class,'airlineName')]/following-sibling::p"));
-        System.out.println(flightCode.get(0).getText());
+        System.out.println(flightCode.get(0).getText());*/
         }
     }
